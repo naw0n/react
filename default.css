@@ -1,0 +1,144 @@
+body{
+    margin : 0px;
+    justify-content : center;
+    font-family : -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.header{
+    display : flex;
+    margin : 0px 0px 16px;
+    border : 0px 0px 1px 0px;
+    padding : 16px 16px 24px 24px;
+    background-color : #ffffff;
+    box-sizing : border-box;
+    box-shadow : rgba(0, 0, 0, 0.05) 0px 3.5px 10px 0px;
+}
+
+.header_logo_type{
+    display : flex;
+    margin-right: 820px;
+    font-size : 20px;
+    color : #212529;
+}
+
+.header_menu_container{
+    display : flex;
+    margin : 0px 16px 0px 0px;
+    text-align : left;
+}
+.header_menu_typo{
+    padding : 8px;
+    font-size : 16px;
+    cursor : pointer; 
+    hover : underline;
+}
+.header_menu_container_btn{
+    border : 1px 1px 1px 1px;
+    padding : 6px 6px 12px 12px;
+    font-size : 16px;
+    text-align : center;
+    color : rgb(0, 123, 255);
+    border-radius : 4px;
+    border : 1px solid rgb(0, 123, 255);
+    cursor : pointer;
+}
+.pricing_header_container{
+    margin-left : 363px;
+    margin-right : 363px;
+    padding : 48px 16px 24px 16px;
+    text-align: center !important;
+    font-weight: 300;
+}
+.pricing_header_headline{
+    margin-bottom: 8px;
+    font-size : 56px;
+}
+.pricing_header_typo{
+    margin-bottom: 16px;
+    font-size : 20px;
+    font-weight: 300px;
+}
+
+.container{
+    margin-left : auto;
+    margin-right : auto;
+    padding-left : 15px;
+    padding-right : 15px;
+    max-width: 960px;
+}
+
+.pricing_card_container{
+    text-align: center !important;
+    display : flex;
+    border : 1px;
+    border-radius : 4px;
+}
+.pricing_card_container_1{
+    margin : 0px 15px 24px 15px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    min-width : 220px;
+    flex : 1px;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    border : 1px  rgba(0, 0, 0, 0.125);
+}
+.pricing_card_container_2{
+    margin : 0px 15px 24px 15px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    flex : 1px;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
+    border : 1px  rgba(0, 0, 0, 0.125);
+}
+.pricing_card_container_3{
+    margin : 0px 15px 24px 15px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    flex : 1px;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
+    border : 1px  rgba(0, 0, 0, 0.125);
+}
+
+.pricing_card_headline{
+    padding : 12px 20px 12px 20px;
+    border-radius : 3px 0px 0px 3px;
+    font-size : 20px;
+    text-align : center;
+    background-color: rgba(0, 0, 0, 0.03);
+    box-sizing : border-box;
+}
+
+.pricing_card_body{
+    padding : 20px;
+    margin-bottom : 12px;
+    flex : 1 1 auto;
+}
+
+.pricing_card_typo{
+    margin-top : 16px;
+    margin-bottom : 24px;
+    list-style:none;
+}
+
+.pricing_card_btn{
+    border : 1px;
+    padding : 8px 16px 8px 16px;
+    text-align : center;
+    color : rgb(0, 123, 255);
+    border-radius : 4px;
+    border : 1px solid rgb(0, 123, 255);
+}
+
+.footer{
+    margin-top : 48px;
+    margin-bottom: 48px;
+    border : 1px;
+    padding : 48px;
+}
+
+.footer_logo_img{
+    margin-bottom: 8px;
+}
+
+.footer_logo_date{
+    margin-bottom: 16px;
+}
